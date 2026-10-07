@@ -1,6 +1,8 @@
-# canadian-stock-market-analytics
+# Canadian Stock Market Analytics
 
-Project Overview
+**End-to-End Financial Data Analytics Project | Python • MySQL • SQL • Power BI**
+
+## Project Overview
 
 This project is an end-to-end financial data analytics solution designed to analyze the performance and risk of publicly traded Canadian stocks on the Toronto Stock Exchange (TSX).
 
@@ -8,98 +10,69 @@ It demonstrates a complete data analytics workflow, from collecting and cleaning
 
 The goal is to transform raw financial data into meaningful insights that can support investment research and data-driven decision-making.
 
-Technologies Used
+## Technologies Used
 
-Python: Data collection, cleaning, transformation, and financial calculations
+- **Python:** Data collection, cleaning, transformation, and financial calculations
+- **Pandas & NumPy:** Data manipulation and statistical analysis
+- **MySQL:** Relational database management and storage
+- **SQL:** Financial data analysis and querying
+- **Power BI:** Interactive dashboards and data visualization
+- **Git & GitHub:** Version control and project documentation
 
-Pandas & NumPy: Data manipulation and statistical analysis
+## Key Features
 
-MySQL: Relational database management and storage
+- Automated historical stock price data collection
+- Data cleaning and preprocessing using Python
+- MySQL database integration
+- Stock performance and return analysis
+- Annualized volatility and risk analysis
+- Maximum drawdown calculations
+- Comparative analysis of Canadian stocks
+- Interactive financial dashboards using Power BI
 
-SQL: Financial data analysis and querying
+## Business Questions Answered
 
-Power BI: Interactive dashboards and data visualization
+1. Which Canadian stocks generated the highest returns during the analyzed period?
+2. Which stocks experienced the greatest price volatility?
+3. How do the risk and returns of different stocks compare?
+4. Which stocks experienced the largest peak-to-trough declines?
+5. How did stock prices and performance change over time?
+6. What insights can investors gain from historical market performance?
 
-Git & GitHub: Version control and project documentation
+## Project Workflow
 
-Key Features
-
-Automated historical stock price data collection
-
-Data cleaning and preprocessing using Python
-
-MySQL database integration
-
-Stock performance and return analysis
-
-Annualized volatility and risk analysis
-
-Maximum drawdown calculations
-
-Comparative analysis of Canadian stocks
-
-Interactive financial dashboards using Power BI
-
-Business Questions Answered
-
-Which Canadian stocks generated the highest returns during the analyzed period?
-
-Which stocks experienced the greatest price volatility?
-
-How do the risk and returns of different stocks compare?
-
-Which stocks experienced the largest peak-to-trough declines?
-
-How did stock prices and performance change over time?
-
-What insights can investors gain from historical market performance?
-
-Project Workflow
-
-1. Data Collection
+### 1. Data Collection
 
 Retrieve historical Canadian stock market data using Python.
 
-2. Data Cleaning
+### 2. Data Cleaning
 
 Process missing values, standardize datasets, and calculate financial performance metrics.
 
-3. Database Integration
+### 3. Database Integration
 
 Load structured datasets into MySQL for persistent storage and querying.
 
-4. Financial Analysis
+### 4. Financial Analysis
 
 Use Python and SQL to evaluate returns, volatility, maximum drawdown, and historical price trends.
 
-5. Data Visualization
+### 5. Data Visualization
 
 Build interactive Power BI dashboards to communicate financial insights and compare stock performance.
 
-Financial Metrics
+## Financial Metrics
 
-Metric
+| Metric | Description |
+|---|---|
+| **Period Return** | Percentage change in stock value over the analysis period |
+| **Annualized Volatility** | Annualized standard deviation of daily stock returns |
+| **Maximum Drawdown** | Largest percentage decline from a historical peak |
+| **Daily Return** | Percentage change in closing price between trading days |
 
-Description
+## Project Structure
 
-Period Return
-
-Percentage change in stock value over the analysis period
-
-Annualized Volatility
-
-Annualized standard deviation of daily stock returns
-
-Maximum Drawdown
-
-Largest percentage decline from a historical peak
-
-Daily Return
-
-Percentage change in closing price between trading days
-
-Project Structure
-
+```text
 canadian-stock-market-analytics/
 ├── src/
 │   ├── config.py
@@ -112,35 +85,26 @@ canadian-stock-market-analytics/
 ├── data/
 ├── requirements.txt
 └── README.md
+```
 
-Skills Demonstrated
+## Skills Demonstrated
 
-End-to-end ETL pipeline development
+- End-to-end ETL pipeline development
+- Financial data analysis
+- Python programming and automation
+- SQL querying and relational database design
+- Data cleaning and transformation
+- Business intelligence and dashboard development
+- Financial risk and performance measurement
 
-Financial data analysis
+## Future Improvements
 
-Python programming and automation
+- Incorporate additional TSX-listed companies
+- Add benchmark comparisons against Canadian market indices
+- Automate periodic data updates
+- Expand portfolio-level risk analysis
+- Explore predictive analytics and forecasting
 
-SQL querying and relational database design
-
-Data cleaning and transformation
-
-Business intelligence and dashboard development
-
-Financial risk and performance measurement
-
-Future Improvements
-
-Incorporate additional TSX-listed companies
-
-Add benchmark comparisons against Canadian market indices
-
-Automate periodic data updates
-
-Expand portfolio-level risk analysis
-
-Explore predictive analytics and forecasting
-
-Disclaimer
+## Disclaimer
 
 This project is intended for educational and portfolio purposes only. The financial analysis is based on historical market data and should not be considered investment advice.
