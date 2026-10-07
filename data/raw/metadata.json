@@ -1,0 +1,23 @@
+{
+  "source": "Yahoo Finance via yfinance (unofficial client; not a TMX feed)",
+  "downloaded_at_utc": "2026-10-07T20:29:31.423273+00:00",
+  "start_inclusive": "2025-01-01",
+  "end_exclusive": "2026-01-01",
+  "symbols": [
+    "RY.TO",
+    "TD.TO",
+    "ENB.TO",
+    "CNQ.TO",
+    "SHOP.TO",
+    "CSU.TO",
+    "ABX.TO",
+    "AEM.TO"
+  ],
+  "auto_adjust": false,
+  "python": "3.14.8",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "yfinance": "0.2.66"
+  }
+}

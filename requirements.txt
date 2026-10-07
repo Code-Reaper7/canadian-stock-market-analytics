@@ -1,0 +1,5 @@
+pandas>=2.2,<3
+numpy>=1.26,<3
+yfinance>=0.2.54,<1
+SQLAlchemy>=2.0,<3
+PyMySQL[rsa]>=1.1,<2

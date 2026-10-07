@@ -1,0 +1,49 @@
+{
+  "input_rows": 2008,
+  "output_rows": 2008,
+  "exact_duplicates_removed": 0,
+  "zero_volume_rows": 0,
+  "date_coverage": {
+    "ABX.TO": {
+      "rows": 251,
+      "first": "2025-01-02",
+      "last": "2025-12-31"
+    },
+    "AEM.TO": {
+      "rows": 251,
+      "first": "2025-01-02",
+      "last": "2025-12-31"
+    },
+    "CNQ.TO": {
+      "rows": 251,
+      "first": "2025-01-02",
+      "last": "2025-12-31"
+    },
+    "CSU.TO": {
+      "rows": 251,
+      "first": "2025-01-02",
+      "last": "2025-12-31"
+    },
+    "ENB.TO": {
+      "rows": 251,
+      "first": "2025-01-02",
+      "last": "2025-12-31"
+    },
+    "RY.TO": {
+      "rows": 251,
+      "first": "2025-01-02",
+      "last": "2025-12-31"
+    },
+    "SHOP.TO": {
+      "rows": 251,
+      "first": "2025-01-02",
+      "last": "2025-12-31"
+    },
+    "TD.TO": {
+      "rows": 251,
+      "first": "2025-01-02",
+      "last": "2025-12-31"
+    }
+  },
+  "note": "Identical symbol calendars checked; not independently verified against an exchange calendar."
+}
